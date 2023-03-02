@@ -1,0 +1,143 @@
+body{
+    background-image: url(back.png);
+   background-color: rgb(35, 33, 33);
+    
+}
+
+.container{
+    background-color: #f4efe3;
+    width:50%;
+    height: 75vh;
+    position: relative;
+    margin:0 auto;
+    margin-top: 1%;
+    border:5px solid #e9ddbe;
+    padding:15px;
+    box-sizing: border-box;
+}
+.info-container,.extra{
+    margin-top: 30px;
+    background-color: rgb(152, 4, 110);
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.extra {
+    display: inline;
+}
+.patner{
+    margin-top: 20px;
+   
+}
+span,h4{
+    padding-left: 15px;
+    padding-right: 60px;
+    padding-top: 25px;
+    color:white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #7c1d60;
+}
+.love{
+    background-image: url(back.png);
+    background-color: #f067a4;
+    border: 3px solid #ef1577;
+    height: 50vh;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 7px;
+}
+input{
+    width:70%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.reset{
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   margin-top: 100px;
+   background-color: #ef1577;
+   height:75px;
+   align-items:center ;
+   
+}
+button{
+    width:150px;
+    height:50px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 24px;
+    padding: 0 30px;
+    background-color: rgb(137, 6, 96);
+    
+}
+#resultenemy{
+    background-image: url(enemy.png);
+     height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin:0px;
+    margin-left:30%;
+    
+}
+#resultaff{
+    background-image: url(affection.png);
+     height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin:0px;
+    margin-left:30%;
+    
+}
+#resultmarr{
+    background-image: url(marriage.png);
+     height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin:0px;
+    margin-left:30%;
+    
+}
+#resultlover{
+    background-image: url(lover.png);
+     height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin:0px;
+    margin-left:30%;
+    
+}
+#resultfriend{
+    background-image: url(friends.png);
+     height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin:0px;
+    margin-left:30%;
+    
+}
